@@ -21,8 +21,7 @@ function App() {
 
   const agregarUsuario = (user) => {
     setUsuarios([
-      ...usuario, 
-      user
+      ...usuario,      user
     ])
   }
 
